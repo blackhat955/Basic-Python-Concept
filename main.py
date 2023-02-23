@@ -86,7 +86,8 @@ class working:
 
         for items in course:
             print("this is just print the values{0}".format(items))
-
+        '''The enumerate object yields pairs containing a count (from start, which
+             defaults to zero) and a value yielded by the iterable argument.'''
         for index, course in enumerate(course):
             print(f'This is printed both index & course:  {index},{course}')
 
